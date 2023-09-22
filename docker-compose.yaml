@@ -1,0 +1,8 @@
+services:
+  web: 
+    build:
+      context: .
+      #target: builder
+      dockerfile: O:\\consus\\include\\kubernetes_testing\\faker\\fakerWeb\\Dockerfile
+    ports: 
+      - '8000:8000'
